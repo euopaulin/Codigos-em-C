@@ -1,14 +1,16 @@
 #include <stdio.h>
+#include <locale.h>
 
-// Este é um código para simular uma situação onde a IA de um carro automatizado irá andar na velocidade determinada pela via.
+//Este eh um codigo para simular uma situacao onde a IA de um carro automatizado ira andar na velocidade determinada pela via
 int main() 
 {
-    // Declaração das variáveis: nome do usuário, veloMax (velocidade máxima que o veículo pode andar)
-    // e veloMin (velocidade mínima).
-    char nome[30];
+	setlocale(LC_ALL, "Portuguese");
+ 	//Declaracao das variaveis: nome do usuario, veloMax (velocidade maxima que o veiculo pode andar)
+    //e veloMin (velocidade minima).
+ char nome[30];
     int veloMax, veloMin;
 
-    printf("Ola, usuario! Eu sou a IA do seu veículo e irei fazer o que for necessário para garantir sua segurança e conforto! \n");
+    printf("Ola, usuario! Eu sou a IA do seu veiculo e irei fazer o que for necessario para garantir sua seguranca e conforto! \n");
     printf("Antes de comecarmos, por favor diga seu nome: \n");
     scanf("%s", nome);
 
@@ -18,13 +20,13 @@ int main()
     veloMax = 70;
     veloMin = 20;
 
-    // Aqui está a simulação do usuário ultrapassando o limite de velocidade.
+    //Aqui esta a simulacao do usuario ultrapassando o limite de velocidade.
     printf("Caro %s, se voce continuar ultrapassando o limite de velocidade terei que reduzir para a sua seguranca! \n", nome);
 
-    // Simulação: usuário ultrapassando a velocidade máxima.
+    //Simulacao: usuario ultrapassando a velocidade maxima.
     int userMaxSpeed = 100;
 
-    // Verifica se a velocidade ultrapassa o limite permitido e ajusta.
+    //Verifica se a velocidade ultrapassa o limite permitido e ajusta.
     	if (userMaxSpeed > veloMax)
 		{
         printf("Me desculpe, %s. Mas tive que reduzir a velocidade para menos de 70km/h! \n", nome);
@@ -35,10 +37,10 @@ int main()
         printf("Esta tudo sob controle! \n");
     	}
     	
-    //Usuario continua insistindo em tomar o controle do veiculo e agora está andando na velocidade minima da via.
+    //Usuario continua insistindo em tomar o controle do veiculo e agora esta andando na velocidade minima da via.
     int userMinSpeed = 10;
     
-    //Essa condição agora irá repertir o mesmo da anterior, porém agora é para corrigir a velocidade para a minima da via.
+    //Essa condicao agora ira repertir o mesmo da anterior, porem agora eh para corrigir a velocidade para a minima da via.
 		if (userMinSpeed < 20)
 		{
 			printf("Me desculpe, %s. Mas tive que aumentar a velocidade para a minima da via! \n",nome);
@@ -46,7 +48,7 @@ int main()
 		}
 		else
 		{
-			printf("Está tudo sob controle! \n");
+			printf("Esta tudo sob controle! \n");
 		}
     return 0;
 }
