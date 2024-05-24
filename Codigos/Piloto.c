@@ -52,3 +52,10 @@ int main()
 		}
     return 0;
 }
+    
+    //Agora irei fazer com que a IA faça um calcular quanto tempo o veiculo irá percorrer um trajeto de 30km em um velocidaede costante de 60km.
+    int beta ()
+{
+    double distancia=150.7,velocidade=72.4;
+    printf("Como pranejado, estamos viajando para Goianaia e a distancia até lá é de: %lf", distancia);
+}
