@@ -50,12 +50,12 @@ int main()
 		{
 			printf("Esta tudo sob controle! \n");
 		}
-        //Agora irei fazer com que a IA faça um calculo de quanto tempo o veiculo irá percorrer um trajeto de 150.7km em um velocidaede costante de 72.4km.
+        //Agora irei fazer com que a IA faca um calculo de quanto tempo o veiculo ira percorrer um trajeto de 150.7km em um velocidaede costante de 72.4km.
     double distancia=150.7,velocidade=72.4;
     double tempo;
-    printf("Como pranejado, estamos viajando para Goianaia e a distancia até lá é de: %lf. \n", distancia);
+    printf("Como pranejado, estamos viajando para Goianaia e a distancia atÃ© lÃ¡ Ã© de: %lf. \n", distancia);
 	tempo=distancia/velocidade;
-	printf("O tempo que iremos levar até chegar em Goiania é de aproximadamente %lf. \n", tempo);
+	printf("O tempo que iremos levar atÃ© chegar em Goiania Ã© de aproximadamente %lf. \n", tempo);
     return 0;
 }
     
