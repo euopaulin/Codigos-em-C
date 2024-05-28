@@ -1,6 +1,6 @@
 [Project]
-FileName=Projeto 7.2.dev
-Name=Projeto 7.2
+FileName=Funções.dev
+Name=Funções
 Type=1
 Ver=2
 ObjFiles=
@@ -50,18 +50,8 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
-[Unit2]
-FileName=Funções.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
 [Unit1]
-FileName=Funções.c
+FileName=fun.c
 CompileCpp=0
 Folder=
 Compile=1
