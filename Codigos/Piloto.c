@@ -58,35 +58,31 @@ int main()
     	printf("Como pranejado, estamos viajando para Goianaia e a distancia ate la sao de: %1f km. \n", distancia);
     	printf("Agora me diga em quantos KM voce quer que o carro ande?! \n");
     	scanf("%lf", &velocidade);
-    	//Agora esse comando é para calcular o tempo em que a viagem irá¡ demorar, para isso peguei pego a velocidade e dividi pela distancia.
+    	//Agora esse comando ï¿½ para calcular o tempo em que a viagem irï¿½ demorar, para isso peguei pego a velocidade e dividi pela distancia.
 		tempo=velocidade/distancia;
 		printf("O tempo que iremos levar ate chegar em Goiania sao de aproximadamente %1f horas. \n", tempo);
 	
-		//Nessa condição agora irei simular o usuario fazendo uma compra enquanto digire. Ele fala isso apensar por comando de voz.
+		//Nessa condiï¿½ï¿½o agora irei simular o usuario fazendo uma compra enquanto digire. Ele fala isso apensar por comando de voz.
 	int produto;
     int frete = 20;
-		//Usuario pede para que a IA do veiculo faça um pedido para ela e informe qual o valor final do produto
-		//Dessa forma a IA pergunta para o usuario qual o pedido que ele quer e são fornecidas três opções.
-    	printf("Caro usuário, qual dessas três opções você irá pedir? Escolha um dos produtos de 1 a 3, por favor! \n");
+		//Usuario pede para que a IA do veiculo faï¿½a um pedido para ela e informe qual o valor final do produto
+		//Dessa forma a IA pergunta para o usuario qual o pedido que ele quer e sï¿½o fornecidas trï¿½s opï¿½ï¿½es.
+    	printf("Caro usuï¿½rio, qual dessas trï¿½s opï¿½ï¿½es vocï¿½ irï¿½ pedir? Escolha um dos produtos de 1 a 3, por favor! \n");
     	scanf("%d", &produto);
 
     switch (produto) {
         case 1:
-            printf("O valor final do seu pedido junto com o frete e imposto é de: %d\n", produto + 15 + frete + IMPOSTO);
+            printf("O valor final do seu pedido junto com o frete e imposto ï¿½ de: %d\n", produto + 15 + frete + IMPOSTO);
             break;
         case 2:
-            printf("O valor final do seu pedido junto com o frete e imposto é de: %d\n", produto + 30 + frete + IMPOSTO);
+            printf("O valor final do seu pedido junto com o frete e imposto ï¿½ de: %d\n", produto + 30 + frete + IMPOSTO);
             break;
         case 3:
-            printf("O valor final do seu pedido junto com o frete e imposto é de: %d\n", produto + 128 + frete + IMPOSTO);
+            printf("O valor final do seu pedido junto com o frete e imposto ï¿½ de: %d\n", produto + 128 + frete + IMPOSTO);
             break;
         default:
-            printf("Por favor, digite um número válido!\n");
+            printf("Por favor, digite um nï¿½mero vï¿½lido!\n");
             break;
     }
     return 0;
 }
-    
-    
-
-    
