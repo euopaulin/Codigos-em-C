@@ -7,7 +7,9 @@ int soma(int n1, int n2)
 
 int fatorial(int num)
 {
-	return num*num*num;
+	for(int i= 5; i>0; i--)
+	printf("%d ", i);
+	return n*fatorial(n-1);
 }
 
 int main ()
