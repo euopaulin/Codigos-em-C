@@ -66,22 +66,22 @@ int main()
 	int produto;
     int frete = 20;
 		//Usuario pede para que a IA do veiculo fa�a um pedido para ela e informe qual o valor final do produto
-		//Dessa forma a IA pergunta para o usuario qual o pedido que ele quer e s�o fornecidas tr�s op��es.
-    	printf("Caro usu�rio, qual dessas tr�s op��es voc� ir� pedir? Escolha um dos produtos de 1 a 3, por favor! \n");
+		//Dessa forma a IA pergunta para o usuario qual o pedido que ele quer e serao fornecidas tres opcoes.
+    	printf("Caro usuario, qual dessas tres opcoes voce ira pedir? Escolha um dos produtos de 1 a 3, por favor! \n");
     	scanf("%d", &produto);
 
     switch (produto) {
         case 1:
-            printf("O valor final do seu pedido junto com o frete e imposto � de: %d\n", produto + 15 + frete + IMPOSTO);
+            printf("O valor final do seu pedido junto com o frete e imposto eh de: %d\n", produto + 15 + frete + IMPOSTO);
             break;
         case 2:
-            printf("O valor final do seu pedido junto com o frete e imposto � de: %d\n", produto + 30 + frete + IMPOSTO);
+            printf("O valor final do seu pedido junto com o frete e imposto eh de: %d\n", produto + 30 + frete + IMPOSTO);
             break;
         case 3:
-            printf("O valor final do seu pedido junto com o frete e imposto � de: %d\n", produto + 128 + frete + IMPOSTO);
+            printf("O valor final do seu pedido junto com o frete e imposto eh de: %d\n", produto + 128 + frete + IMPOSTO);
             break;
         default:
-            printf("Por favor, digite um n�mero v�lido!\n");
+            printf("Por favor, digite um numero valido!\n");
             break;
     }
     return 0;

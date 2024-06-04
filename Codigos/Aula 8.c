@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-// Nessa aula estudei funções e parametros
-//Uma função void é uma função que não me dara retorno, ela serve para eu chamar posteriormente dentro da main.
+// Nessa aula estudei funï¿½ï¿½es e parametros
+//Uma funï¿½ï¿½o void ï¿½ uma funï¿½ï¿½o que nï¿½o me dara retorno, ela serve para eu chamar posteriormente dentro da main.
 void digaOla() 
 {
 	printf("Ola \n");
@@ -21,7 +21,7 @@ void subtrair()
 {
 	printf("Subtrair: %d\n", 3-2);
 }
-// Nessa função abaixo coloquei um parametro dentro dos parenteses, dessa forma estou dando uma ordem que posteriormente dentro da main terei que informar.
+// Nessa funï¿½ï¿½o abaixo coloquei um parametro dentro dos parenteses, dessa forma estou dando uma ordem que posteriormente dentro da main terei que informar.
 
 void digaola2(char nome[50])
 {
@@ -79,6 +79,7 @@ int quadrado(int n)
 {
 	return n*n;
 }
+
 int main()
 {
 	imprimirmensagem();
