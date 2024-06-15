@@ -1,18 +1,12 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <stdlib.h>
 
 int main ()
 {
-	int numeros [5];
-	int soma = 0;
-	int i;
+	int idades [] = {20, 19, 17, 24, 25, 28, 18, 18, 18, 21};
+	int tamanhoArray = (int) (sizeof(idades)/4);
 	
-	for(i = 0; i < 5; i++)
-	{
-		printf("Digite a nota %d \n", i+1);
-		scanf("%d", &numeros[i]);
-		
-		soma += numeros[i];
+	for (int i = 0; i < tamanhoArray; i++){
+		printf("%d\n", &idades[i]);
 	}
-	printf("A soma dos numeros digitados foram: %d  \n", soma);
 }
