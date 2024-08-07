@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Paulin/Documents/Codigos em C/Codigos-em-C",
-      "program": "c:/Users/Paulin/Documents/Codigos em C/Codigos-em-C/build/Debug/outDebug",
+      "cwd": "c:/Users/Administrator/Documents/Codigos-em-C/Codigos Feitos em Programação Trilhas",
+      "program": "c:/Users/Administrator/Documents/Codigos-em-C/Codigos Feitos em Programação Trilhas/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
